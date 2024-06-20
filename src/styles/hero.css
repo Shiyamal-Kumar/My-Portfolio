@@ -52,6 +52,7 @@
     font-size: 1rem;
     cursor: pointer;
     border-radius: 10px;
+    text-decoration: none;
   }
 
   .btn-contactme {
@@ -62,10 +63,16 @@
     font-size: 1rem;
     cursor: pointer;
     border-radius: 10px;
+    text-decoration: none;
   }
   
-  .btn:hover {
-    background-color: #555;
+  .btn-projects:hover {
+    background-color: #001221;
+    color: #fff;
+  }
+  .btn-contactme:hover {
+    background-color: #fff;
+    color: #001221;
   }
   .dot {
     height: 450px;

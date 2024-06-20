@@ -1,21 +1,21 @@
 ---
 import "../styles/global.css";
 import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
 ---
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
   </head>
-  <body>
+  <body data-theme="dark">
     <Navbar />
     <main>
-      <slot></slot>
+      <slot />
     </main>
-    <footer>
-      <p>&copy; 2024 My Portfolio</p>
-    </footer>
+    <Footer />
   </body>
 </html>

@@ -1,10 +1,10 @@
-.featured-projects {
+#featured-projects {
     background-color: #001221;
     color: #fff;
     padding: 2rem;
   }
   
-  .featured-projects h2 {
+  #featured-projects h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -13,23 +13,38 @@
   .project {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin: 1rem;
     gap: 2rem;
   }
   
   .project img {
-    width: 300px;
+    width: 600px;
     height: auto;
     border-radius: 10px;
+    cursor: pointer;
   }
   
   .project-description {
     max-width: 600px;
   }
   
+  .project-description a {
+   text-decoration: none;
+   color: #fff;
+  }
+  .project-description a::after{
+    text-decoration: none;
+    color: #fff;
+   }
+
   .project-description h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+  }
+
+  .project-description h3:hover {
+    color: #81A5B5;
+    cursor: pointer;
   }
   
   .project-description p {

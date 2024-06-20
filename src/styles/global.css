@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
 
 body {
-  font-family: 'Jura', sans-serif;
+  font-family: "Jura", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 header {
-  background-color: #333;
+  background-color: #001221;
   color: #fff;
   padding: 1rem;
 }
