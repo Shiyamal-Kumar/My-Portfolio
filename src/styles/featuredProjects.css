@@ -1,0 +1,50 @@
+.featured-projects {
+    background-color: #001221;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .featured-projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+  
+  .project img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .project-description {
+    max-width: 600px;
+  }
+  
+  .project-description h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-description p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project:nth-child(even) {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
+  }
+  .project:nth-child(odd) {
+
+    display: flex;
+    justify-content: space-around;
+  }
+  
