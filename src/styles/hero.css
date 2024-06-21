@@ -84,10 +84,53 @@
   top: -100px;
   right: 450px;
 }
+
+.dot {
+  height: 450px;
+  width: 450px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: -100px;
+  right: 450px;
+}
 .ava img {
   height: 550px;
   top: -67px;
   right: 400px;
   position: absolute;
   z-index: 1;
+}
+
+[data-theme="light"] {
+  .dot {
+    background-color: #edf7b2;
+  }
+  .hero {
+    position: relative;
+    background: url(morningserene.jpg) no-repeat bottom center / cover;
+  }
+
+  .btn-projects {
+    background-color: #001221;
+    color: #fff;
+  }
+  .btn-contactme {
+    background-color: #fff;
+    color: #001221;
+  }
+
+  .btn-projects:hover {
+    background-color: #fff;
+    color: #001221;
+  }
+  .btn-contactme:hover {
+    background-color: #001221;
+    color: #fff;
+  }
+  .hero-content {
+    color: #001221;
+    background: #fff;
+  }
 }

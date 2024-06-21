@@ -2,7 +2,6 @@
   background-color: #001221;
   color: #fff;
   padding: 2rem;
-  position: static;
 }
 
 .footer-content {
@@ -35,6 +34,9 @@
   display: flex;
   gap: 1rem;
 }
+svg {
+  color: #fff;
+}
 
 .social-icons a {
   transition: transform 0.3s;
@@ -42,7 +44,6 @@
 
 .social-icons a:hover {
   transform: scale(1.1);
-  color: #81a5b5;
 }
 
 .footer-bottom {
@@ -58,4 +59,17 @@
 
 .footer-bottom p {
   font-size: 0.875rem;
+}
+
+[data-theme="light"] {
+  .footer {
+    background-color: #fff;
+    color: #001221;
+  }
+  .footer-bottom hr {
+    background: #001221;
+  }
+  svg {
+    color: #001221;
+  }
 }

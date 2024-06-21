@@ -1,15 +1,15 @@
 .navbar {
-gap: 200px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 3rem;
-    background-color: #001221;
-    color: #fff;
+  gap: 200px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 3rem;
+  background-color: #001221;
+  color: #fff;
 }
 
 .logo img {
-  height: 50px; 
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -27,7 +27,7 @@ gap: 200px;
 .nav-links a {
   color: #fff;
   text-decoration: none;
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
 }
 
 .profile {
@@ -37,10 +37,20 @@ gap: 200px;
 }
 
 .profile img {
-  height: 40px; 
+  height: 40px;
   border-radius: 50%;
 }
 
 .profile span {
   font-size: 2.5rem;
+}
+
+[data-theme="light"] {
+  .navbar {
+    background-color: #fff;
+    color: #001221;
+  }
+  .nav-links a {
+    color: #001221;
+  }
 }
