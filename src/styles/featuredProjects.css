@@ -2,6 +2,7 @@
   background-color: #001221;
   color: #fff;
   padding: 2rem;
+  z-index: 2;
 }
 
 #featured-projects h2 {

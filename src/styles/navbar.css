@@ -1,9 +1,8 @@
 .navbar {
-  gap: 200px;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  padding: 1rem 2rem;
   background-color: #001221;
   color: #fff;
 }
@@ -16,7 +15,7 @@
 .nav-links {
   list-style-type: none;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   margin: 0;
 }
 
@@ -27,30 +26,28 @@
 .nav-links a {
   color: #fff;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
-.profile {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+[data-theme="light"] .navbar {
+  background-color: #fff;
+  color: #001221;
 }
 
-.profile img {
-  height: 40px;
-  border-radius: 50%;
+[data-theme="light"] .nav-links a {
+  color: #001221;
 }
 
-.profile span {
-  font-size: 2.5rem;
-}
-
-[data-theme="light"] {
+@media (min-width: 768px) {
   .navbar {
-    background-color: #fff;
-    color: #001221;
+    padding: 2rem;
   }
+
+  .nav-links {
+    gap: 2rem;
+  }
+
   .nav-links a {
-    color: #001221;
+    font-size: 1.5rem;
   }
 }
